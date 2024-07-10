@@ -181,7 +181,7 @@ input:checked + label {width: 600px;}
 .title b{font-weight: 900;}
 
 .btn1{
-    font-size: 1vw;
+    font-size: 0.9vw;
     color: #fff;
     background-color: #A346FF;
     text-transform: capitalize;
@@ -191,7 +191,7 @@ input:checked + label {width: 600px;}
 }
 
 .btn2{
-    font-size: 1vw;
+    font-size: 0.9rem;
     color: #fff;
     background-color: #232323;
     text-transform: capitalize;
@@ -235,13 +235,13 @@ input:checked + label {width: 600px;}
     }
 
     .btn1{
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 3vw 6vw;
         
     }
 
     .btn2{
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 3vw 6vw;
     }
     .leftsc .devider{
@@ -345,6 +345,8 @@ h1{
     flex-flow: column;
 }
 
+.thin-fix{display: none;}
+
 @media only screen and (max-width: 768px) {
     
     .banner p{
@@ -363,5 +365,8 @@ h1{
     .bio-interactables{
         flex-direction: column;
     }
+}
 
+@media only screen and (max-width: 350px) {
+    .thin-fix {display: flex;}
 }
