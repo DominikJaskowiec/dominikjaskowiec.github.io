@@ -289,6 +289,7 @@ input:checked + label {width: 600px;}
 .bio-page{
     width: 100vw;
     margin: auto;
+    margin-top: 15vh;
 }
 
 .bio-page ul{
@@ -311,11 +312,14 @@ input:checked + label {width: 600px;}
     line-height: 110%;
 }
 
+.bio-page{
+    
+    padding-bottom: 20vh;
+}
 
 .gallery-wrapper{
     width: 70vw;
     margin: auto;
-    margin-top: 10vh;
 }
 
 .gallery-wrapper .gallery{
@@ -329,10 +333,11 @@ input:checked + label {width: 600px;}
     border-radius: 1rem;
 }
 
-.gallery-wrapper h1{
+h1{
     text-align: center;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
+
 
 .bio-interactables{
     display: flex;
@@ -348,11 +353,11 @@ input:checked + label {width: 600px;}
 
     .bio-page ul{
         flex-direction: column;
-        width: 80vw;
+        width: 90vw;
     }
 
     .bio-page li{
-        width: 80vw;
+        width: 90vw;
     }
 
     .bio-interactables{
